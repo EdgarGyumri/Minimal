@@ -1,0 +1,292 @@
+@font-face {
+  font-family: 'NewAthenaUnicode';
+  src: url("../fonts/NewAthenaUnicode.ttf") format("truetype"), url("../fonts/NewAthenaUnicode.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'new_athena_unicode';
+  src: url("../fonts/new_athena_unicode.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SegoeWP-Black';
+  src: url("../fonts/SegoeWP-Black.ttf") format("truetype"), url("../fonts/SegoeWP-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ofont.ru_Segoe WP Black';
+  src: url("../fonts/ofont.ru_Segoe WP Black.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SegoeWP-Light';
+  src: url("../fonts/SegoeWP-Light.ttf") format("truetype"), url("../fonts/SegoeWP-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ofont.ru_Segoe WP Light';
+  src: url("../fonts/ofont.ru_Segoe WP Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'SegoeWP-Light';
+  padding: 0;
+  margin: 0; }
+
+.container {
+  max-width: 970px;
+  margin: 0 auto; }
+
+.header-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header-nav__link {
+  color: #565656;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: 300;
+  margin-right: 15px;
+  margin-left: 15px; }
+
+.header-cont {
+  position: relative;
+  background-image: url(../img/bg.png);
+  background-size: cover; }
+  .header-cont-block {
+    margin-top: 100px;
+    margin-left: 50px; }
+  .header-cont__text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'SegoeWP-Light';
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px; }
+  .header-cont__text:before {
+    content: '';
+    margin-right: 10px;
+    background: url(../img/earth.png);
+    display: block;
+    width: 55px;
+    height: 55px; }
+  .header-cont__title {
+    line-height: 0.7em;
+    font-weight: 300;
+    font-size: 39px;
+    color: #fff;
+    text-transform: uppercase; }
+    .header-cont__title span {
+      font-size: 17px;
+      font-weight: 400;
+      text-transform: none; }
+  .header-cont__btn {
+    height: 45px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header-cont__btn__img {
+      background: #259d8e;
+      padding: 8px 13px 8px 15px; }
+    .header-cont__btn__link {
+      background: #54d3c3;
+      padding: 11px 20px 12px;
+      text-decoration: none;
+      color: #fff;
+      font-family: 'SegoeWP-Light'; }
+
+.header-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0px 35px; }
+
+.header-devices {
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute; }
+  .header-devices__logo {
+    padding: 30px 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    width: 67px;
+    height: 65px; }
+  .header-devices__imac {
+    background: url(../img/mac.png) no-repeat 50% 50%;
+    background-color: #069592; }
+  .header-devices__ipad {
+    background: url(../img/ipad.png) no-repeat 50% 50%;
+    background-color: #048b8b; }
+  .header-devices__iphone {
+    background: url(../img/phone.png) no-repeat 50% 50%;
+    background-color: #017d82; }
+
+.header-hamb {
+  display: none; }
+
+.nav-opacity {
+  opacity: 1; }
+
+.app {
+  padding: 30px 0px 0px;
+  text-align: center; }
+  .app-title {
+    font-size: 41px;
+    color: #636363;
+    font-weight: 300; }
+  .app-text {
+    font-size: 15px;
+    color: #9f9f9f;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 35px; }
+
+.firms {
+  padding: 120px 0px 0px; }
+  .firms-block {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .firms-block__one, .firms-block__two {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 50%; }
+    .firms-block__categories {
+      width: 33.4%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 170px; }
+    .firms-block__search {
+      background-color: #01646c; }
+    .firms-block__power {
+      background-color: #097b84; }
+    .firms-block__apple {
+      background-color: #118f99; }
+    .firms-block__shop {
+      background-color: #1da0aa; }
+    .firms-block__lock {
+      background-color: #29b7c2; }
+    .firms-block__star {
+      background-color: #3ccad5; }
+  .firms-cont {
+    width: 100%;
+    background: #01646c;
+    background: -webkit-gradient(linear, left top, right top, from(#01646c), to(#09a097));
+    background: -o-linear-gradient(left, #01646c 0%, #09a097 100%);
+    background: linear-gradient(90deg, #01646c 0%, #09a097 100%);
+    padding: 120px 0px 77px; }
+    .firms-cont__block {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+    .firms-cont__info {
+      margin-top: 40px;
+      color: #fff; }
+      .firms-cont__info__title {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 39px;
+        line-height: 0; }
+      .firms-cont__info__text {
+        font-size: 17px;
+        line-height: 0;
+        margin-bottom: 40px; }
+
+.project-container {
+  width: 80%;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.project-cont__title {
+  line-height: 1.1em;
+  margin-top: 100px;
+  display: block;
+  font-family: 'SegoeWP-Light';
+  color: #49d7b0;
+  font-size: 74px;
+  font-weight: 300;
+  text-transform: uppercase; }
+  .project-cont__title span {
+    line-height: 0.8em;
+    font-family: 'SegoeWP-Black';
+    font-size: 200px; }
+
+.project-parties {
+  background-color: #49d7b0;
+  width: 496px;
+  height: 512px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.footer {
+  padding: 30px 0px 25px; }
+  .footer-text {
+    color: #989898;
+    text-align: center; }

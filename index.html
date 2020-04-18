@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Minimal</title>
+  </head>
+  <body>
+    <header class="header">
+        <div class="container header-block">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="Minimal" class="header-logo__img">
+            </div>
+            <nav class="header-nav">
+                <a href="#" class="header-nav__link">Products</a>
+                <span class="header-nav__delim">|</span>
+                <a href="#" class="header-nav__link">Services</a>
+                <span class="header-nav__delim">|</span>
+                <a href="#" class="header-nav__link">Contact</a>
+            </nav>
+            <div class="header-hamb">
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+            </div>
+        </div>
+        <div class="header-cont">
+            <div class="container header-content">
+                <img src="img/iphone.png" alt="Iphone" class="header-cont__img">
+                <div class="header-cont-block">
+                    <p class="header-cont__text">
+                        app of<br>the year
+                    </p>
+                    <h1 class="header-cont__title">
+                        My apps shoecase<br>
+                        <span>
+                            Lorem Ipsum is simply dummy text .....
+                        </span>
+                    </h1>
+                    <div class="header-cont__btn header-cont__media">
+                        <img src="img/market.png" alt="Market" class="header-cont__btn__img">
+                        <a href="#" class="header-cont__btn__link">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-devices">
+                <div class="header-devices__imac header-devices__logo"></div>
+                <div class="header-devices__ipad header-devices__logo"></div>
+                <div class="header-devices__iphone header-devices__logo"></div>
+            </div>
+        </div>
+    </header>
+    <section class="app">
+        <div class="container">
+            <h2 class="app-title">About minimal</h2>
+            <p class="app-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+                but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <img src="img/app.png" alt="" class="app-img">
+        </div>
+    </section>
+    <section class="firms">
+            <div class="firms-block">
+                <div class="firms-block__one">
+                    <div class="firms-block__search firms-block__categories">
+                        <img src="img/search.png" alt="" class="firms-block-item">
+                    </div>
+                    <div class="firms-block__power firms-block__categories">
+                        <img src="img/power.png" alt="" class="firms-block-item">
+                    </div>
+                    <div class="firms-block__apple firms-block__categories">
+                        <img src="img/apple.png" alt="" class="firms-block-item">
+                    </div>
+                </div>
+                <div class="firms-block__two">
+                    <div class="firms-block__shop firms-block__categories">
+                        <img src="img/shop-1.png" alt="" class="firms-block-item">
+                    </div>
+                    <div class="firms-block__lock firms-block__categories">
+                        <img src="img/lock.png" alt="" class="firms-block-item">
+                    </div>
+                    <div class="firms-block__star firms-block__categories">
+                        <img src="img/star.png" alt="" class="firms-block-item">
+                    </div>
+                </div>
+            </div>
+            <div class="firms-cont">
+                <div class="container">
+                    <div class="firms-cont__block">
+                        <div class="firms-cont__nout">
+                            <img src="img/nout.png" alt="NoutBook" class="firms-cont__nout__img">
+                        </div>
+                        <div class="firms-cont__info">
+                            <h2 class="firms-cont__info__title">My apps shoecase</h2>
+                            <p class="firms-cont__info__text">Lorem Ipsum is simply dummy text .....
+                            </p>
+                            <div class="header-cont__btn firms-cont__btn">
+                                <img src="img/market.png" alt="Market" class="header-cont__btn__img">
+                                <a href="#" class="header-cont__btn__link">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="project">
+        <div class="project-container">
+            <div class="project-cont">
+                <h2 class="project-cont__title">
+                    <span>60%<br></span>
+                    Of project<br>Completed
+                </h2>
+            </div>
+            <div class="project-parties">
+                <img src="img/parties.png" alt="Parties" class="project-parties__img">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-text">Copyright © 2012 Css Author </p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            var styles = {
+                backgroundColor : 'white',
+                position : 'absolute',
+                left : '0',
+                top: '17%',
+                padding : '10px',
+                width : '100%',
+                opacity : '0.9'
+            }
+
+            $('.header-hamb').on('click', function() {
+                $('.header-nav').css(styles).slideToggle();
+            })
+            })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+/* Responsive */
+
+/* (992px - 1200px) */
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+    .header-nav{
+        display: block;
+    }
+}
+
+/* (768px - 992px) */
+
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+    .header-nav{
+        display: block;
+    }
+    .header-cont__title{
+        line-height: 1.2em;
+    }
+    .header-cont__title span{
+        line-height: 0;
+        font-size: 20px;
+    }
+    .firms-cont__block{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .firms-cont__btn{
+        justify-content: center;
+    }
+    .project-container{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center; 
+    }
+    .project-parties{
+        margin: 0 auto;
+    }
+}
+
+/* (576px - 768px) */
+
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .header-nav{
+        opacity: 1;
+        display: block;
+    }
+    .header-content{
+        flex-direction: column;
+        max-width: 452px;
+        padding-top: 150px;
+    }
+    .header-cont-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .header-devices{
+        right: calc(50% - 175px)
+    }
+}
+
+/* (576px - 0px) */
+
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .header-nav{
+        position: absolute;
+        display: none;
+        z-index: 1;
+        padding-top: 200px;
+    }
+    .header-devices{
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+    .header-devices__logo{
+        width: 33.3%;
+    }
+    .header-nav__link{
+        display: block;
+    }
+    .header-hamb{
+        display: block;
+    }
+    .header-cont-block{
+        margin-left: -10px;
+    }
+    .header-cont__img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .header-cont__title{
+        text-align: center;
+    }
+    .header-cont__title span{
+        font-size: 15px;
+    }
+    .header-cont__text{
+        margin-left: -20px;
+    }
+    .app-img{
+        width: 85%;
+    }
+    .firms-block{
+        flex-direction: column;
+    }
+    .firms-block__one, .firms-block__two{
+        width: 100%;
+    }
+    .firms-cont__nout__img{
+        max-width: 500px;
+        width: 100%;
+    }
+    .firms-cont__info__title{
+        font-size: 30px;
+        line-height: 1em;
+    }
+    .project-cont__title{
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+    .project-cont__title span{
+        font-size: 120px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .project-parties__img, .project-parties{
+        width: 80%;
+    }
+    .project-parties{
+        height: 300px;
+    }
+} 
